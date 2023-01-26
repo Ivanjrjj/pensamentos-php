@@ -1,0 +1,78 @@
+div#links-conta {
+  margin: 12px;
+}
+
+body {
+  justify-content: start;
+}
+
+header {
+  background-color: #3498db;
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+  position: fixed;
+}
+
+header h4 {
+  color: #ffffff;
+}
+
+main {
+  padding-top: 220px;
+}
+
+article {
+  width: 500px;
+  border: 1px solid #3498db;
+  padding: 6px;
+  margin: 4px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+}
+
+img.img-excluir {
+  height: 20px;
+  margin: 6px 6px 0 0;
+}
+
+img.img-excluir:hover {
+  opacity: 0.8;
+}
+
+input {
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+input#texto {
+  width: 200px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+input#btn-postar {
+  margin-left: -5px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: #27ae60;
+  color: #fff;
+}
+
+input#btn-postar:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+
+#img-pessoa {
+  height: 100px;
+  border-radius: 20px;
+}
+
+.img-pessoa-postagem {
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 4px;
+}
